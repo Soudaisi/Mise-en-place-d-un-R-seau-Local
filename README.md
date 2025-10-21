@@ -18,11 +18,6 @@ L’objectif est d’assurer la connectivité entre les différents services de 
 Le réseau est divisé en plusieurs VLANs correspondant aux services de l’entreprise (Administration, Technique, Comptabilité).
 Chaque VLAN est isolé, avec des règles d’accès définies par des ACL sur le routeur principal.
 
- 
-## Schéma du réseau
-![Schéma du réseau](Vue de l'entreprise 1.png)
-
-
 
 ## Configuration principale
 - **Switchs :** configuration des VLANs et des ports d’accès/trunk  
@@ -34,11 +29,6 @@ Chaque VLAN est isolé, avec des règles d’accès définies par des ACL sur le
 - Communication entre les VLANs autorisés  
 - Blocage du trafic non autorisé par les ACL  
 - Réseau stable et fonctionnel
-
-
-## Test de connectivité
-![Test de connectivité](Simulation du Réseau.png)
-
 
 
 ## Fichiers inclus
